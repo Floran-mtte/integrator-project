@@ -1,0 +1,20 @@
+{
+  "name": "integrator-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "watch": "parcel watch src/index.html && parcel src/index.html",
+    "prod": "parcel build src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "prettier": "2.2.1",
+    "sass": "^1.32.6"
+  }
+}

@@ -1,0 +1,8 @@
+dist/
+.cache/
+node_modules/
+.gitignore
+.prettierrc.json
+package.json
+package-lock.json
+README.md
