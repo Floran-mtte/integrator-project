@@ -1,0 +1,69 @@
+.footer {
+  padding-top: 120px;
+  display: flex;
+  &__container {
+    padding: 0;
+    @include sm {
+      padding: 0 60px;
+    }
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__part {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    min-width: 115px;
+    & > * {
+      margin-top: 15px;
+    }
+  }
+  &__logo {
+    text-align: center;
+    justify-content: center;
+    flex-basis: 100vw;
+    margin: 10px 0;
+  }
+  &__copyright {
+    margin: 50px 0;
+    flex-basis: 100vw;
+    & > p {
+      font-family: $font-text-regular;
+      font-size: 10px;
+    }
+    text-align: center;
+
+  }
+  &__title {
+    text-align: center;
+    font-size: 18px;
+    font-family: $font-text-bold;
+    color: #212121;
+    @include md {
+      text-align: unset;
+    }
+  }
+  &__link {
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    color: #757575;
+    font-family: $font-text-regular;
+    @include md {
+      text-align: unset;
+    }
+  }
+  &__social {
+    @include md {
+      text-align: unset;
+    }
+    text-align: center;
+  }
+}
+
+.social_icon {
+  width: 24px;
+  height: 24px;
+}

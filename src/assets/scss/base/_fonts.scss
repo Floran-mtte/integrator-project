@@ -1,0 +1,57 @@
+//noinspection ALL
+@font-face {
+  font-family: 'Typold Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Typold Book'), url('./../fonts/typold/Typold Book.woff') format('woff');
+}
+
+//noinspection ALL
+@font-face {
+  font-family: 'Typold Book Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Typold Book'), url('./../fonts/typold/Typold Book.woff') format('woff');
+}
+
+//noinspection ALL
+@font-face {
+  font-family: 'Typold Book Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Typold-Book-Italic'), url('./../fonts/typold/Typold-Book-Italic.woff') format('woff');
+}
+
+//noinspection ALL
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lato-Regular'), url('./../fonts/lato/Lato-Regular.ttf') format('ttf');
+}
+
+//noinspection ALL
+@font-face {
+  font-family: 'Lato Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Lato-Bold'), url('./../fonts/lato/Lato-Bold.ttf') format('ttf');
+}
+
+//noinspection ALL
+@font-face {
+  font-family: 'Lato Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lato-Italic'), url('./../fonts/lato/Lato-Italic.ttf') format('ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+$font-title-regular: 'Typold Book', sans-serif;
+$font-title-bold: 'Typold Book Bold', sans-serif;
+$font-title-italic: 'Typold Book Italic', sans-serif;
+
+$font-text-regular: 'Lato', sans-serif;
+$font-text-bold: 'Lato Bold', sans-serif;
+$font-text-italic: 'Lato Italic', sans-serif;

@@ -1,0 +1,29 @@
+@import "reset";
+@import "colors";
+@import "fonts";
+@import "mixins";
+
+h1 {
+  font-family: $font-title-bold;
+  font-size: 28px;
+  color: $pampas;
+}
+
+h2 {
+  font-family: $font-title-regular;
+  font-size: 22px;
+}
+
+a {
+  font-family: $font-title-regular;
+  font-size: 12px;
+  text-decoration: none;
+  &:hover {
+    font-weight: bold;
+  }
+}
+
+p {
+  font-family: $font-text-regular;
+  font-size: 14px;
+}

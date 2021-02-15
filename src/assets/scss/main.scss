@@ -1,7 +1,5 @@
-@import "./base/reset";
+@import "./base/base";
+@import "./layout/hero-container";
+@import "./layout/footer";
+@import "./pages/landing";
 
-$color: #000000;
-
-body {
-  background-color: $color;
-}

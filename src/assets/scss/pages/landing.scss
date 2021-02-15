@@ -1,0 +1,123 @@
+
+.section {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcase {
+  min-width: 0;
+  height: inherit;
+  flex: 3;
+  display: flex;
+  flex-shrink: 2;
+  justify-content: center;
+  align-items: center;
+  @include lg {
+    flex: 5;
+    justify-content: flex-start;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 491px;
+    margin: 0 40px;
+    @include lg {
+      align-items: flex-start;
+    }
+    & > * {
+      margin: 20px 0;
+    }
+  }
+  &__title {
+    font-size: 27px;
+    @include sm {
+      font-size: 32px;
+    }
+    @include md {
+      font-size: 42px;
+    }
+  }
+  &__price {
+    font-size: 23px;
+    font-family: $font-text-regular;
+    @include sm {
+      font-size: 28px;
+    }
+    @include md {
+      font-size: 38px;
+    }
+  }
+  &__description {
+    color: $swirl;
+  }
+  &__button {
+    padding: 10px;
+    outline: none;
+    border: 1px solid $swirl;
+    font-family: $font-text-bold;
+    color: $amber;
+    text-transform: uppercase;
+    background: white;
+    width: 100px;
+    cursor: pointer;
+  }
+}
+
+.content {
+  @include lg {
+    &--left {
+      margin: 0 80px;
+    }
+    &--right {
+      margin-left: 300px;
+    }
+  }
+
+}
+
+.side {
+  min-width: 0;
+  height: inherit;
+  flex: 2;
+  flex-shrink: 0;
+  display: none;
+  align-items: center;
+  @include lg {
+    display: flex;
+  }
+
+}
+
+.swirl {
+  background: $swirl;
+}
+
+.jungle_mist {
+  background: $jungle_mist;
+}
+
+.product__illustration {
+  &--mobile {
+    align-self: center;
+    @include lg {
+      display: none;
+    }
+  }
+  &--left {
+    position: relative;
+    left: 115px;
+  }
+  &--right {
+    position: relative;
+    right: 200px;
+  }
+}
+
+.fixed {
+  overflow-y: hidden;
+}
+
