@@ -1,6 +1,6 @@
 .btn {
   outline: none;
-  border: none;
+  border: 1px solid transparent;
   color: white;
   line-height: 1.47059;
   width: 80%;
@@ -16,5 +16,10 @@
   }
   @include md {
     width: 100%;
+  }
+  &:hover {
+    color: black;
+    background: white;
+    border: 1px solid black;
   }
 }

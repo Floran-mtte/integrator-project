@@ -105,7 +105,7 @@
     <section class="details">
       <div class="details__container">
         <div class="details__infos">
-          <h1 class="details__title">Beats Solo Pro Wireless Noise Cancelling Headphones - Ivory</h1>
+          <h1 class="details__title">Beats Solo Pro Wireless Noise Cancelling Headphones - <span class="current-color">Ivory</span></h1>
           <span class="details__price">$299,95</span>
         </div>
 
@@ -113,14 +113,14 @@
           <p class="colors__title"> Color - <span class="current-color">Ivory</span></p>
         </div>
         <div class="colors__list">
-          <div class="color__round--ivory color--curent"></div>
-          <div class="color__round--gray"></div>
-          <div class="color__round--black"></div>
+          <div class="color__item color__round--ivory color--current" data-color="ivory"></div>
+          <div class="color__item color__round--gray" data-color="gray"></div>
+          <div class="color__item color__round--black" data-color="black"></div>
         </div>
         <div class="details__actions">
           <button class="action__cart btn">Add to cart</button>
         </div>
-        <div class="gallery__tabs">
+        <div class="gallery__tabs current-palette">
           <div class="gallery__item">
             <a class="gallery__link">
               <img class="gallery__preview current-image" src="assets/images/products/MRJ72.jpeg">
@@ -144,6 +144,80 @@
           <div class="gallery__item">
             <a class="gallery__link">
               <img class="gallery__preview" src="assets/images/products/MRJ72_AV4.jpeg">
+            </a>
+          </div>
+          <div class="gallery__item">
+            <a class="gallery__link">
+              <img class="gallery__preview" src="assets/images/products/MRJ82_AV5.jpeg">
+            </a>
+          </div>
+          <div class="gallery__item">
+            <a class="gallery__link">
+              <img class="gallery__preview" src="assets/images/products/MRJ82_AV6.jpeg">
+            </a>
+          </div>
+        </div>
+        <div class="gallery__tabs gray">
+          <div class="gallery__item">
+            <a class="gallery__link">
+              <img class="gallery__preview current-image" src="assets/images/products/MRJ82.jpeg">
+            </a>
+          </div>
+          <div class="gallery__item">
+            <a class="gallery__link">
+              <img class="gallery__preview" src="assets/images/products/MRJ82_AV1.jpeg">
+            </a>
+          </div>
+          <div class="gallery__item">
+            <a class="gallery__link">
+              <img class="gallery__preview" src="assets/images/products/MRJ82_AV2.jpeg">
+            </a>
+          </div>
+          <div class="gallery__item">
+            <a class="gallery__link">
+              <img class="gallery__preview" src="assets/images/products/MRJ82_AV3.jpeg">
+            </a>
+          </div>
+          <div class="gallery__item">
+            <a class="gallery__link">
+              <img class="gallery__preview" src="assets/images/products/MRJ82_AV4.jpeg">
+            </a>
+          </div>
+          <div class="gallery__item">
+            <a class="gallery__link">
+              <img class="gallery__preview" src="assets/images/products/MRJ82_AV5.jpeg">
+            </a>
+          </div>
+          <div class="gallery__item">
+            <a class="gallery__link">
+              <img class="gallery__preview" src="assets/images/products/MRJ82_AV6.jpeg">
+            </a>
+          </div>
+        </div>
+        <div class="gallery__tabs black">
+          <div class="gallery__item">
+            <a class="gallery__link">
+              <img class="gallery__preview current-image" src="assets/images/products/MRJ62.jpeg">
+            </a>
+          </div>
+          <div class="gallery__item">
+            <a class="gallery__link">
+              <img class="gallery__preview" src="assets/images/products/MRJ62_AV1.jpeg">
+            </a>
+          </div>
+          <div class="gallery__item">
+            <a class="gallery__link">
+              <img class="gallery__preview" src="assets/images/products/MRJ62_AV2.jpeg">
+            </a>
+          </div>
+          <div class="gallery__item">
+            <a class="gallery__link">
+              <img class="gallery__preview" src="assets/images/products/MRJ62_AV3.jpeg">
+            </a>
+          </div>
+          <div class="gallery__item">
+            <a class="gallery__link">
+              <img class="gallery__preview" src="assets/images/products/MRJ62_AV4.jpeg">
             </a>
           </div>
           <div class="gallery__item">
@@ -248,12 +322,12 @@
           <h4 class="card__title">Beats Solo3 Rose gold</h4>
           <p class="card__price">$199.95</p>
         </div>
-        <div class="card">
+        <div class="card" onclick="window.location.href = './studio-3.html'">
           <img class="card__product" src="assets/images/products/MX402.jpeg">
           <h4 class="card__title">Beats Studio3 Blue</h4>
           <p class="card__price">$349.95</p>
         </div>
-        <div class="card">
+        <div class="card" onclick="window.location.href = './power-beats-pro.html'">
           <img class="card__product" src="assets/images/products/MV722.jpeg">
           <h4 class="card__title">Powerbeats Pro - Ivory</h4>
           <p class="card__price">$249.95</p>
@@ -329,5 +403,6 @@
     body.classList.add("fixed");
   }
 </script>
+<script src="assets/js/product.js"></script>
 </body>
 </html>

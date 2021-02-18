@@ -34,8 +34,8 @@
 
   }
   &__tabs {
+    display: none;
     margin-bottom: 40px;
-    display: flex;
     justify-content: center;
     @include lg {
       justify-content: unset;
@@ -53,9 +53,16 @@
     height: inherit;
     width: inherit;
     cursor: pointer;
+    &:hover {
+      opacity: 0.5;
+    }
   }
 }
 
 .current-image {
   border: 1px solid $golden_tainoi;
+}
+
+.current-palette {
+  display: flex;
 }

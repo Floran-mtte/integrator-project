@@ -1,3 +1,16 @@
+.local__nav {
+  display: flex;
+  flex-basis: 100vw;
+  border-bottom: 1px solid #d6d6d6;
+  padding: 10px;
+  &__title {
+    font-size: 16px;
+    font-family: $font-text-regular;
+    color: #757575;
+    word-spacing: 5px;
+  }
+}
+
 .details {
   display: flex;
   flex-direction: column;
@@ -82,6 +95,9 @@
       border: 1px solid transparent;
       border-radius: 50%;
       background: #E5DDD6;
+      &:hover {
+        opacity: 0.5;
+      }
     }
     &--gray {
       cursor: pointer;
@@ -91,6 +107,9 @@
       border: 1px solid transparent;
       border-radius: 50%;
       background: #B2A7A3;
+      &:hover {
+        opacity: 0.5;
+      }
     }
     &--black {
       cursor: pointer;
@@ -100,6 +119,9 @@
       border: 1px solid transparent;
       border-radius: 50%;
       background: #272727;
+      &:hover {
+        opacity: 0.5;
+      }
     }
     &--rose {
       cursor: pointer;
@@ -109,6 +131,9 @@
       border: 1px solid transparent;
       border-radius: 50%;
       background: #D4A7A0;
+      &:hover {
+        opacity: 0.5;
+      }
     }
     &--red {
       cursor: pointer;
@@ -118,6 +143,9 @@
       border: 1px solid transparent;
       border-radius: 50%;
       background: #F0493C;
+      &:hover {
+        opacity: 0.5;
+      }
     }
     &--blue {
       cursor: pointer;
@@ -127,6 +155,9 @@
       border: 1px solid transparent;
       border-radius: 50%;
       background: #273B56;
+      &:hover {
+        opacity: 0.5;
+      }
     }
     &--gray {
       cursor: pointer;
@@ -136,9 +167,12 @@
       border: 1px solid transparent;
       border-radius: 50%;
       background: #6B6C6E;
+      &:hover {
+        opacity: 0.5;
+      }
     }
   }
-  &--curent {
+  &--current {
     border-color: $golden_tainoi;
   }
 }

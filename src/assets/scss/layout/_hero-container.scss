@@ -94,6 +94,9 @@
     background: $golden_tainoi;
     width: 100%;
     cursor: pointer;
+    &:hover {
+      background: #eec575;
+    }
     & > a {
       color: inherit;
     }
