@@ -1,0 +1,11 @@
+.container {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  @include md {
+    margin: 40px 50px;
+  }
+  @include lg {
+    margin: 40px 100px;
+  }
+}

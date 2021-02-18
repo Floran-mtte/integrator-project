@@ -1,0 +1,150 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 2;
+  &__container {
+    & > div {
+      margin-top: 25px;
+    }
+  }
+  &__infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include lg {
+      align-items: unset;
+    }
+  }
+  &__title {
+    font-family: $font-text-bold;
+    font-size: 25px;
+    text-align: center;
+    @include lg {
+      text-align: unset;
+    }
+  }
+  &__price {
+    font-family: $font-text-regular;
+    font-size: 17px;
+    margin-top: 5px;
+    text-align: left;
+    @include lg {
+      text-align: unset;
+    }
+  }
+  &__colors {
+    font-family: $font-text-regular;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    @include lg {
+      display: block;
+    }
+  }
+  &__actions {
+    display: flex;
+    justify-content: center;
+    @include lg {
+      display: block;
+    }
+  }
+}
+
+.colors {
+  &__list {
+    display: flex;
+    justify-content: center;
+    @include lg {
+      justify-content: unset;
+    }
+    & > * {
+      margin-right: 5px;
+    }
+  }
+  &__title {
+    font-family: $font-text-regular;
+    font-size: 16px;
+    text-align: center;
+    @include lg {
+      text-align: unset;
+    }
+  }
+}
+
+.color {
+  &__round {
+    &--ivory {
+      cursor: pointer;
+      box-shadow: inset 0 2px 1.5px rgb(0 0 0 / 10%);
+      width: 32px;
+      height: 32px;
+      border: 1px solid transparent;
+      border-radius: 50%;
+      background: #E5DDD6;
+    }
+    &--gray {
+      cursor: pointer;
+      box-shadow: inset 0 2px 1.5px rgb(0 0 0 / 10%);
+      width: 32px;
+      height: 32px;
+      border: 1px solid transparent;
+      border-radius: 50%;
+      background: #B2A7A3;
+    }
+    &--black {
+      cursor: pointer;
+      box-shadow: inset 0 2px 1.5px rgb(0 0 0 / 10%);
+      width: 32px;
+      height: 32px;
+      border: 1px solid transparent;
+      border-radius: 50%;
+      background: #272727;
+    }
+    &--rose {
+      cursor: pointer;
+      box-shadow: inset 0 2px 1.5px rgb(0 0 0 / 10%);
+      width: 32px;
+      height: 32px;
+      border: 1px solid transparent;
+      border-radius: 50%;
+      background: #D4A7A0;
+    }
+    &--red {
+      cursor: pointer;
+      box-shadow: inset 0 2px 1.5px rgb(0 0 0 / 10%);
+      width: 32px;
+      height: 32px;
+      border: 1px solid transparent;
+      border-radius: 50%;
+      background: #F0493C;
+    }
+    &--blue {
+      cursor: pointer;
+      box-shadow: inset 0 2px 1.5px rgb(0 0 0 / 10%);
+      width: 32px;
+      height: 32px;
+      border: 1px solid transparent;
+      border-radius: 50%;
+      background: #273B56;
+    }
+    &--gray {
+      cursor: pointer;
+      box-shadow: inset 0 2px 1.5px rgb(0 0 0 / 10%);
+      width: 32px;
+      height: 32px;
+      border: 1px solid transparent;
+      border-radius: 50%;
+      background: #6B6C6E;
+    }
+  }
+  &--curent {
+    border-color: $golden_tainoi;
+  }
+}
+
+.actions {
+  &__cart {
+
+  }
+}

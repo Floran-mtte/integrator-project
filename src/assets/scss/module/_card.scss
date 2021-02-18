@@ -1,0 +1,25 @@
+.card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  & > * {
+    margin-bottom: 10px;
+  }
+  &__product {
+    height: 181px;
+    width: 181px;
+  }
+  &__title {
+    text-align: center;
+    font-family: $font-text-bold;
+    font-size: 18px;
+  }
+  &__price {
+    font-family: $font-text-regular;
+    font-size: 16px;
+  }
+}

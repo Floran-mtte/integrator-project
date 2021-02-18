@@ -1,0 +1,61 @@
+.gallery {
+  flex-direction: column;
+  flex: 3;
+  display: none;
+  @include lg {
+    display: flex;
+  }
+  &__mobile {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100vw;
+    @include lg {
+      display: none;
+    }
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__main {
+    width: 372px;
+    height: 372px;
+    @include lg {
+      width: 572px;
+      height: 572px;
+    }
+    & > img {
+      width: inherit;
+      height: inherit;
+    }
+  }
+  &__product {
+
+  }
+  &__tabs {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    @include lg {
+      justify-content: unset;
+    }
+  }
+  &__item {
+    width: 32px;
+    height: 32px;
+  }
+  &__link {
+    height: inherit;
+    width: inherit;
+  }
+  &__preview {
+    height: inherit;
+    width: inherit;
+    cursor: pointer;
+  }
+}
+
+.current-image {
+  border: 1px solid $golden_tainoi;
+}

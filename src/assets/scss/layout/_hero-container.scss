@@ -11,67 +11,6 @@
     }
     height: inherit;
   }
-  &__nav {
-    padding: 20px 5px;
-    @include md {
-      padding: 20px;
-    }
-    &__mobile {
-      padding: 10px;
-      display: none;
-      justify-content: center;
-      align-items: center;
-      height: inherit;
-      background: white;
-      position: relative;
-      z-index: 60;
-    }
-    &--mobile {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      @include md {
-        display: none;
-      }
-    }
-    &__list {
-      display: flex;
-      flex-wrap: nowrap;
-      justify-content: space-between;
-      align-items: center;
-      &--mobile {
-        height: inherit;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-      }
-    }
-    &__part {
-      display: none;
-      @include md {
-        display: flex;
-      }
-      align-items: center;
-    }
-    &__item {
-      margin: 0 25px;
-    }
-    &__link {
-      color: $pampas;
-      cursor: pointer;
-      &--mobile {
-        color: $black;
-        font-size: 23px;
-        font-family: $font-text-bold;
-      }
-    }
-    &__underline {
-      width: 90%;
-      border-bottom: 1px solid #ededed;
-    }
-  }
   &__content {
     display: none;
     margin: 85px 40px;
@@ -103,7 +42,7 @@
     font-family: 'Open Sans', sans-serif;
     color: $swirl;
     position: absolute;
-    font-size: 15.4vw;
+    font-size: 18.7vw;
     opacity: 0.20;
     left: 0;
     top: 50%;
@@ -155,22 +94,13 @@
     background: $golden_tainoi;
     width: 100%;
     cursor: pointer;
+    & > a {
+      color: inherit;
+    }
     @include md{
       width: 170px;
     }
   }
-}
-
-.is--open {
-  display: flex;
-  flex-direction: column;
-}
-
-.close--menu {
-  cursor: pointer;
-  position: absolute;
-  top: 10px;
-  right: 15px;
 }
 
 .margin {
