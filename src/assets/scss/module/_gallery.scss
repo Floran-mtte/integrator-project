@@ -19,8 +19,12 @@
     align-items: center;
   }
   &__main {
-    width: 372px;
-    height: 372px;
+    width: 272px;
+    height: 272px;
+    @include sm {
+      width: 372px;
+      height: 372px;
+    }
     @include lg {
       width: 572px;
       height: 572px;
